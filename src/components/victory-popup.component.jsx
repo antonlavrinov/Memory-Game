@@ -9,7 +9,7 @@ const VictoryPopup = ({victory, tryAgain, goToMenu}) => {
                 <div className="popup__overlay">
                     <div className="modal modal_result">
                         <div className="modal__text-block modal__text-block_result">
-                            <img className="modal__result-img" src={`images/victory.png`} alt="victory"/>
+                            <img className="modal__result-img" src={victoryImg} alt="victory"/>
                         </div>
                         <div className="modal__buttons-block modal__buttons-block_result">
                             <button className="button button_brown button_result" onClick={() => goToMenu()}>Menu</button>

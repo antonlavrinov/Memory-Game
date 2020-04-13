@@ -9,7 +9,7 @@ const GameOverPopup = ({gameOver, tryAgain, goToMenu}) => {
                 <div className="popup__overlay">
                     <div className="modal modal_result">
                         <div className="modal__text-block modal__text-block_result">
-                            <img className="modal__result-img modal__result-img_gameOver" src={`images/game-over.png`} alt="victory"/>
+                            <img className="modal__result-img modal__result-img_gameOver" src={gameOverImg} alt="victory"/>
                         </div>
                         <div className="modal__buttons-block modal__buttons-block_result">
                             <button className="button button_brown button_result" onClick={() => goToMenu()}>Menu</button>

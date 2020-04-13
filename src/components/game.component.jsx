@@ -8,6 +8,7 @@ import Spinner from './_spinner.component';
 import Devil from './devil.component';
 import Curtain from './curtain.component';
 import AudioController from '../music.utils';
+import shadow from '../images/shadow.png';
 import {levels} from '../levels';
 
 class Game extends React.Component {
@@ -29,47 +30,47 @@ class Game extends React.Component {
         console.log('I updated')
     }
 
-    preloadImages = () => {
-        const imagesArray = ['background.jpg', 
-                            'menu_background.jpg',
-                             'candy.jpg',
-                             'cookie.jpg',
-                             'cracker.jpg',
-                             'croissant.jpg',
-                             'donut.jpg',
-                             'roll.jpg',
-                             'cake.jpg',
-                            'victory.png',
-                            'game-over.png',
-                            'memory-game.png',
-                            'card_back4.jpg',
-                            'devil_outglow.png',
-                            'devil1.png',
-                            'dialog_menu.png',
-                            'shadow.png'
-        ];
-        const loadedImages = [];
-        imagesArray.map((srcc) => {
-            console.log(srcc)
-            const src = `/images/${srcc}`
-            const img = new Image();
-            img.src = src
-            img.onload = loadedImages.push(srcc)
-            console.log(img)
-        });
+    // preloadImages = () => {
+    //     const imagesArray = ['background.jpg', 
+    //                         'menu_background.jpg',
+    //                          'candy.jpg',
+    //                          'cookie.jpg',
+    //                          'cracker.jpg',
+    //                          'croissant.jpg',
+    //                          'donut.jpg',
+    //                          'roll.jpg',
+    //                          'cake.jpg',
+    //                         'victory.png',
+    //                         'game-over.png',
+    //                         'memory-game.png',
+    //                         'card_back4.jpg',
+    //                         'devil_outglow.png',
+    //                         'devil1.png',
+    //                         'dialog_menu.png',
+    //                         'shadow.png'
+    //     ];
+    //     const loadedImages = [];
+    //     imagesArray.map((srcc) => {
+    //         console.log(srcc)
+    //         const src = `/images/${srcc}`
+    //         const img = new Image();
+    //         img.src = src
+    //         img.onload = loadedImages.push(srcc)
+    //         console.log(img)
+    //     });
 
-        if(loadedImages.length === 17) {
-            setTimeout(() => {
-                this.setState({loaded: true})
-                console.log('LOADED')
-            }, 1500)
+    //     if(loadedImages.length === 17) {
+    //         setTimeout(() => {
+    //             this.setState({loaded: true})
+    //             console.log('LOADED')
+    //         }, 1500)
 
-        }
-    }
+    //     }
+    // }
 
-    componentDidMount() {
-        this.preloadImages()
-    }
+    // componentDidMount() {
+    //     this.preloadImages()
+    // }
 
 
     state = {
@@ -84,7 +85,7 @@ class Game extends React.Component {
         level: '',
         game: false,
         sound: true,
-        loaded: false
+        // loaded: false
     }
 
     soundOff = () => {
@@ -290,37 +291,36 @@ class Game extends React.Component {
 
 
     render() {
-        const content = this.state.loaded ? (
-            <div className="container">
-                <Curtain game={this.state.game} menu={this.state.menu}/>
-                <div className="shadow-block">
-                </div>
-                <img src={`images/shadow.png`} alt="shadow" className="shadow"/>
-                <TopLine level={this.state.level} tryAgain={this.tryAgain} goToMenu={this.goToMenu} game={this.state.game} timeRemaining={this.state.timeRemaining}/>
-                <MainMenuPopup chooseDifficulty={this.chooseDifficulty} menu={this.state.menu} startGame={this.startGame}/>
-                <GameOverPopup goToMenu={this.goToMenu} gameOver={this.state.gameOver} tryAgain={this.tryAgain}/>
-                <VictoryPopup goToMenu={this.goToMenu} victory={this.state.victory} tryAgain={this.tryAgain}/>
-                <Devil game={this.state.game}/>  
-                <Board cardToCheck={this.state.cardToCheck} 
-                    flipCard={this.flipCard} 
-                    cards={this.state.cards}
-                    matchedCards={this.state.matchedCards}
-                    disabled={this.state.disabled}
-                    timeRemaining={this.state.timeRemaining}
-                    level={this.state.level}
-                    soundOff={this.soundOff}
-                    game={this.state.game}
-                    />
-            </div>
-        ) : (
-                <Spinner/>
+        // const content = 
+        // ) : (
+        //         <Spinner/>
 
 
 
-        )
+        // )
         return(
             <div className="game">
-                {content}
+                <div className="container">
+                    <Curtain game={this.state.game} menu={this.state.menu}/>
+                    <div className="shadow-block">
+                    </div>
+                    <img src={shadow} alt="shadow" className="shadow"/>
+                    <TopLine level={this.state.level} tryAgain={this.tryAgain} goToMenu={this.goToMenu} game={this.state.game} timeRemaining={this.state.timeRemaining}/>
+                    <MainMenuPopup chooseDifficulty={this.chooseDifficulty} menu={this.state.menu} startGame={this.startGame}/>
+                    <GameOverPopup goToMenu={this.goToMenu} gameOver={this.state.gameOver} tryAgain={this.tryAgain}/>
+                    <VictoryPopup goToMenu={this.goToMenu} victory={this.state.victory} tryAgain={this.tryAgain}/>
+                    <Devil game={this.state.game}/>  
+                    <Board cardToCheck={this.state.cardToCheck} 
+                        flipCard={this.flipCard} 
+                        cards={this.state.cards}
+                        matchedCards={this.state.matchedCards}
+                        disabled={this.state.disabled}
+                        timeRemaining={this.state.timeRemaining}
+                        level={this.state.level}
+                        soundOff={this.soundOff}
+                        game={this.state.game}
+                        />
+                </div>
             </div>
         )
     }

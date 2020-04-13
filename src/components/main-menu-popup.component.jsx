@@ -1,18 +1,17 @@
 import React from 'react';
 import {CSSTransition} from 'react-transition-group';
-// import memoryGame from '../images/memory-game.png';
-// import menuDialog from '../images/dialog_menu.png';
+import memoryGame from '../images/memory-game.png';
+import menuDialog from '../images/dialog_menu.png';
+import devil from '../images/devil1.png';
 
 const MainMenuPopup = ({menu, chooseDifficulty}) => {
     return(
         <CSSTransition classNames="popup__modal" unmountOnExit in={menu} timeout={300}>
             <div className="main-menu">
-                <img src={`images/dialog_menu.png`} alt="dialog" className="dialog dialog_menu"/>
-                <img className={`devil__image devil__image_menu`} src={`images/devil1.png`} alt="devil"/>
-                <img src={`images/memory-game.png`} alt="memory-game" className="main-menu__logo"/>
-                <div style={{
-                    backgroundImage: 'url(images/menu_background.jpg)'
-                }} className="main-menu__overlay">
+                <img src={menuDialog} alt="dialog" className="dialog dialog_menu"/>
+                <img className={`devil__image devil__image_menu`} src={devil} alt="devil"/>
+                <img src={memoryGame} alt="memory-game" className="main-menu__logo"/>
+                <div className="main-menu__overlay">
                 </div>
                 <div className="modal">
                             
