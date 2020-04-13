@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Plump';
+    src: url('Plump.eot');
+    src: url('Plump.eot?#iefix') format('embedded-opentype'),
+        url('Plump.woff2') format('woff2'),
+        url('Plump.woff') format('woff'),
+        url('Plump.ttf') format('truetype'),
+        url('Plump.svg#Plump') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

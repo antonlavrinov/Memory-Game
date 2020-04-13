@@ -1,0 +1,285 @@
+@media screen and (max-width: 1200px)
+    // .game
+    //     .container
+    //         width: 700px
+
+
+//IPAD PRO 1024px
+   
+@media screen and (max-width: 991px) 
+    .game
+        // height: 700px
+        .container
+            width: 750px
+            // h100%
+
+
+
+//IPAD
+@media (max-width: 768px)
+    .shadow-block
+        display: none
+    .main-menu
+        &__logo
+            width: 300px
+        .modal
+            width: 450px
+            &__text-block
+                font-size: 12px
+            .button
+                min-width: 31%
+                font-size: 15px
+        &__overlay
+            background-repeat: no-repeat
+            background-size: 100%
+    .dialog
+        width: 200px
+    .top-line
+        width: 550px
+    .progress-bar
+        width: 300px
+    .devil
+        &__image
+            
+            width: 700px
+            &_menu
+                width: 500px
+            &_up
+                top: 100px
+    .shadow
+        height: 70%
+    .game
+        height: 100%
+        width: 100%
+        .container
+            width: 100%
+            height: 100%
+            // background: black
+            // background-size: 
+    .card-list
+        &__block
+            grid-gap: 5px
+            &_simple
+                grid-template-columns: 1fr 1fr 1fr 1fr
+                grid-template-rows: 1fr 1fr 1fr 1fr
+                width: 500px
+                height: 500px
+            &_regular
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+                grid-template-rows: 1fr 1fr 1fr 
+                width: 550px
+                height: 275px
+            &_expert
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr
+                width: 550px
+                height: 400px
+
+
+
+@media only screen and (max-width: 575px)
+    .modal
+        width: 90%
+        padding: 15px
+        &__result-img
+            width: 100%
+        &__buttons-block
+            width: 100%
+            .button
+                font-size: 16px
+    // .shadow-block
+    //     display: none
+    // .game
+    //     // height: 700px
+    //     .container
+    //         width: 100%
+    .card-list
+        &__block
+            grid-gap: 5px
+            &_simple
+                grid-template-columns: 1fr 1fr 1fr 1fr
+                grid-template-rows: 1fr 1fr 1fr 1fr
+                width: 400px
+                height: 400px
+            &_regular
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 
+                grid-template-rows: 1fr 1fr 1fr 1fr
+                width: 400px
+                height: 325px
+            &_expert
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
+                width: 400px
+                height: 400px
+
+ 
+
+//IPHONE_X IPHONE_6/7/8 PLUS  
+@media only screen and (max-width: 480px)
+    .modal
+        // &_result
+            // top: 50%
+        // top: 50%
+        // transform: translate(-50%,-50%)
+        // &__result-img
+        //     width: 100%
+        // width: 90%
+        // padding: 15px
+        &__buttons-block
+            // width: 100%
+            flex-direction: column
+            .button
+                font-size: 16px
+                margin-bottom: 10px
+                &:last-child
+                    margin-bottom: 0
+    .devil
+        &__image
+            top: 40%
+            transform: translate(-50%, -50%)
+            width: 90%
+
+            &_up
+                top: 25%
+            &_menu
+                top: 45%
+                transform: translate(-50%, -50%)
+                width: 375px
+    .main-menu
+        &__logo
+            width: 55%
+            top: 15%
+            transform: translate(-50%, -50%)
+
+        .modal
+            width: 90%
+            top: 65%
+            transform: translate(-50%, -50%)
+            padding: 15px
+            &__buttons-block
+                flex-direction: row
+            .button
+                height: 100%
+                padding: 15px
+                width: 100%
+                font-size: 14px
+                margin-right: 8px
+                &:last-child
+                    margin-right: 0
+                // height: 100%
+        &__overlay
+            background-image: none
+
+    .timer
+        line-height: 1.5
+        left: 50%  
+        transform: translateX(-50%)
+    .progress-bar
+        width: 60%
+    .top-line
+        // flex-direction: column-reverse
+
+        width: 90%
+        bottom: 30px
+        &__buttons
+            .button
+                padding: 15px
+                height: 100%
+                font-size: 12px
+                margin-right: 5px
+                &:last-child
+                    margin-right: 0
+            // margin-top: 15px
+    .shadow
+        display: none
+        // margin-bottom: 50%
+        // height: 350px
+
+    // #root
+    //     width: 100%
+    // .App
+    //     width: 100%
+    .game
+        // height: 100%
+
+        .container
+            // width: 100%
+            background: $dark-brown
+            // padding: 5px
+    .card-list
+        // height: 100%
+
+        padding-top: 60%  
+        &__block
+            background: $dark-brown
+            box-shadow: 0 -25px 25px $dark-brown
+            // padding:
+            grid-gap: 5px
+            &_simple
+                grid-template-columns: 1fr 1fr 1fr 1fr 
+                grid-template-rows: 1fr 1fr 1fr 
+                width: 325px
+                height: 250px
+            &_regular
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 
+                width: 325px
+                height: 325px
+            &_expert
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr  
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 
+                width: 325px
+                height: 400px
+
+        
+//IPHONE_5S/SE   GALAXY_S5
+@media only screen and (max-width: 362px)
+    // .shadow
+    //     margin-bottom: 45%
+    //     height: 325px
+    .devil
+        &__image
+
+            // width: 450px
+
+            // &_up
+            //     top: 0
+            &_menu
+                width: 325px
+    .main-menu
+        &__logo
+            // top: 15%
+            // transform: translate(-50%, -50%)
+        .modal
+            width: 90%
+            top: 67%
+            transform: translate(-50%, -50%)
+            padding: 15px
+            &__buttons-block
+            // width: 100%
+                flex-direction: row
+            .button
+                height: 100%
+                padding: 14px
+                // min-width: 30%
+                font-size: 12px
+                // height: 100%
+    .card-list
+        padding-top: 185px  
+        &__block
+            grid-gap: 2px
+            &_simple
+                grid-template-columns: 1fr 1fr 1fr 1fr 
+                grid-template-rows: 1fr 1fr 1fr 1fr 
+                width: 275px
+                height: 275px
+            &_regular
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 
+                width: 275px
+                height: 275px
+            &_expert
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 
+                width: 275px
+                height: 275px

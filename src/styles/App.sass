@@ -1,0 +1,89 @@
+
+@import './base/_variables';
+
+@font-face 
+    font-family: 'Plump'
+    src: url('../fonts/Plump.eot')
+    src: url('../fonts/Plump.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Plump.woff2') format('woff2'),
+    url('../fonts/Plump.woff') format('woff'),
+    url('../fonts/Plump.ttf') format('truetype'),
+    url('../fonts/Plump.svg#Plump') format('svg')
+    font-weight: 700
+    font-style: normal
+@font-face 
+    font-family: 'Cuphead Felix'
+    src: url('../fonts/CupheadFelix-Regular.eot')
+    src: url('../fonts/CupheadFelix-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CupheadFelix-Regular.woff2') format('woff2'),
+    url('../fonts/CupheadFelix-Regular.woff') format('woff'),
+    url('../fonts/CupheadFelix-Regular.ttf') format('truetype'),
+    url('../fonts/CupheadFelix-Regular.svg#CupheadFelix-Regular') format('svg')
+    font-weight: 500
+    font-style: normal
+
+.noSelect 
+    -webkit-touch-callout: none
+    -webkit-user-select: none
+    -khtml-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+    -webkit-tap-highlight-color: transparent
+
+
+
+.container
+    width: 980px
+    margin: 0 auto
+    position: relative
+*   
+    margin: 0
+    padding: 0
+    box-sizing: border-box 
+    letter-spacing: .070em
+    font-family: 'Plump', sans-serif
+
+img 
+    align-self: start
+
+
+p
+    margin: 0
+    padding: 0
+
+input
+    box-sizing: border-box  
+ 
+
+ul, li 
+	display: block
+	padding: 0
+	margin: 0
+	box-sizing: border-box
+.App 
+    background: black
+    height: 100%
+#root
+    height: 100%
+body
+    height: 100%
+
+html
+    height: 100%
+
+
+@import './blocks/_spinner';
+@import './blocks/_card';
+@import './blocks/_curtain';
+@import './blocks/_top-line';
+@import './blocks/_buttons';
+@import './blocks/_progress-bar';
+@import './blocks/_devil';
+@import './blocks/_game';
+@import './blocks/_card-list';
+@import './blocks/_transitions';
+@import './blocks/_popups';
+
+
+@import './base/_media';

@@ -1,0 +1,42 @@
+.button
+    min-width: 150px
+    height: 60px
+    border-radius: 8px
+    border: none
+    background: black
+    color: white
+    text-transform: uppercase
+    font-family: Plump
+    font-size: 20px
+    letter-spacing: .070em
+    &:focus
+        outline: none
+    &_orange
+        background: $orange-gradient
+        box-shadow: inset 0px 0px 15px rgba(255,255,255,0.5)
+        &:hover
+            box-shadow: inset 0px 0px 15px rgba(255,255,255,0.5), 0px 0px 15px $orange
+            // background: $orange
+            // box-shadow: none
+    &_purple
+        background: $purple-gradient
+        box-shadow: inset 0px 0px 15px rgba(255,255,255,0.5)
+        &:hover
+            box-shadow: inset 0px 0px 15px rgba(255,255,255,0.5), 0px 0px 15px $purple
+
+    &_brown
+        background: $brown-gradient-button
+        box-shadow: inset 0px 0px 15px #c33825
+    &:hover
+        cursor: pointer
+    &_top-line
+        min-width: 0px
+        // min-height: 50px
+        padding: 20px
+        margin-right: 10px
+        // background: black
+    &_result
+        width: 100%
+        margin-right: 15px
+        &:last-child
+            margin-right: 0

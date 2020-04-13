@@ -1,0 +1,28 @@
+import React from 'react';
+import {CSSTransition} from 'react-transition-group';
+import victoryImg from '../images/victory.png';
+
+const VictoryPopup = ({victory, tryAgain, goToMenu}) => {
+    return(
+        <CSSTransition classNames="popup__modal" unmountOnExit in={victory} timeout={300}>
+            <div className="popup popup_victory">
+                <div className="popup__overlay">
+                    <div className="modal modal_result">
+                        <div className="modal__text-block modal__text-block_result">
+                            <img className="modal__result-img" src={`images/victory.png`} alt="victory"/>
+                        </div>
+                        <div className="modal__buttons-block modal__buttons-block_result">
+                            <button className="button button_brown button_result" onClick={() => goToMenu()}>Menu</button>
+                            <button className="button button_orange button_result" onClick={() => victory ? tryAgain() : null}>Start again</button>
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </CSSTransition>
+    )
+}
+
+export default VictoryPopup;

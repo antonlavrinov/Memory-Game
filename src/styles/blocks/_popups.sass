@@ -1,0 +1,133 @@
+.popup
+    position: absolute
+    z-index: 3
+    
+    &_victory
+    &__overlay
+        position: fixed
+        width: 100%
+        height: 100%
+        background: rgba(0,0,0,0.9)
+        top: 0
+        left: 0
+    &__modal
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 500px
+        height: 400px
+        background: grey
+.main-menu
+  position: relative
+  // z-index: 1
+  // top: 0
+  // left: 0
+  width: 100%
+  height: 100%
+  background: #22000a
+
+    
+  &__logo
+    position: absolute
+    top: 100px
+    left: 50%
+    transform: translateX(-50%)
+    width: 400px
+    z-index: 3
+    user-select: none
+  &__overlay
+    // user-select: none
+    position: absolute
+    
+    z-index: 1
+    width: 100%
+    height: 100%
+    background: center center / cover
+    background-size: cover
+    background-position: center center
+    // url('../../images/menu_background.jpg') 
+    animation: backgroundRotate 5s linear infinite
+.modal
+    width: 560px
+    // height: 300px
+    left: 50%
+    transform: translateX(-50%)
+
+    background: $dark-brown-gradient
+    border-radius: 10px
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.7), inset 0px 0px 10px rgba(255,66,0,0.5)
+    border: 2px solid black
+    position: absolute
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 35px
+    padding-top: 60px
+
+    top: 520px
+    z-index: 6
+    &__buttons-block
+      display: flex
+      justify-content: space-between
+    &__text-block
+      padding: 20px
+      border-radius: 8px
+      background: #2e0209
+      color: $pale-orange
+      font-size: 16px
+      font-family: 'Cuphead Felix'
+      margin-bottom: 20px
+      text-align: center
+      line-height: 1.5
+      box-shadow: inset 0px 3px 3px rgba(0,0,0,0.5), 0px 0px 10px rgba(255,66,0,0.5)
+      &_result
+        // padding:
+
+    &__result-img
+      width: 450px
+      &_gameOver
+        padding-top: 30px
+    &_result
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+
+@keyframes backgroundRotate
+  0%
+    
+  100%
+    transform: rotate(360deg)
+
+
+
+
+.popup__modal-enter 
+  opacity: 0
+//   transform: scale(0.9)
+
+.popup__modal-enter-active 
+  opacity: 1
+//   transform: translateX(0)
+  transition: opacity 300ms, transform 300ms
+
+
+.popup__modal-exit 
+  opacity: 1
+  transition: opacity 300ms, transform 300ms
+
+
+.popup__modal-exit-active 
+
+  opacity: 0
+//   transform: scale(0.9)
+  transition: opacity 300ms, transform 300ms
+
+
+
+.dialog
+  position: absolute
+  z-index: 3
+  width: 250px
+  right: 50px
+  top: 300px
