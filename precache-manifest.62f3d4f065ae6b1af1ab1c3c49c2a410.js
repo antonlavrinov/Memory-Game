@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57c3d6b90ef1a4c4c18fadad9e9664a0",
+    "revision": "1b7ec6e0a7b6ffd0b8866913048346e6",
     "url": "/Memory-Game/index.html"
   },
   {
-    "revision": "27f16fec21b0d35b1c1f",
+    "revision": "4a8acd1bb98beb34f50b",
     "url": "/Memory-Game/static/css/main.0e718f55.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/js/2.0954c851.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "27f16fec21b0d35b1c1f",
-    "url": "/Memory-Game/static/js/main.d6fb634c.chunk.js"
+    "revision": "4a8acd1bb98beb34f50b",
+    "url": "/Memory-Game/static/js/main.c4e57c17.chunk.js"
   },
   {
     "revision": "934317a64f3e6b556200",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/croissant.e1867ba3.jpeg"
   },
   {
-    "revision": "1d4957382c2e41a8f29262e4e6981d7a",
-    "url": "/Memory-Game/static/media/devil1.1d495738.png"
+    "revision": "8cc984070a5c876a63af4d1fdb796dc9",
+    "url": "/Memory-Game/static/media/devil1.8cc98407.png"
   },
   {
     "revision": "d7ae290c943a8523829347abd4c85c71",
