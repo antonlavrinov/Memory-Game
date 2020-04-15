@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da857f60f4e204239c4080c16701b2c8",
+    "revision": "5c0ce02cacbba9133873530a5f6e1b79",
     "url": "/Memory-Game/index.html"
   },
   {
-    "revision": "e4abe5589222facfc4a1",
-    "url": "/Memory-Game/static/css/main.55a90955.chunk.css"
+    "revision": "b150a089e7c58c5a00e2",
+    "url": "/Memory-Game/static/css/main.d545a87a.chunk.css"
   },
   {
-    "revision": "b35ca158ba88fbfd108f",
-    "url": "/Memory-Game/static/js/2.f6143904.chunk.js"
+    "revision": "ef7bc4dba9b4c3d93b86",
+    "url": "/Memory-Game/static/js/2.fae90a56.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Memory-Game/static/js/2.f6143904.chunk.js.LICENSE.txt"
+    "url": "/Memory-Game/static/js/2.fae90a56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4abe5589222facfc4a1",
-    "url": "/Memory-Game/static/js/main.99c61d0a.chunk.js"
+    "revision": "b150a089e7c58c5a00e2",
+    "url": "/Memory-Game/static/js/main.65a2d62b.chunk.js"
   },
   {
     "revision": "934317a64f3e6b556200",
@@ -46,6 +46,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "064dd73a1b4bc3f58131c3ad8a11d106",
     "url": "/Memory-Game/static/media/MUS_Mausoleum.064dd73a.mp3"
+  },
+  {
+    "revision": "07a8a8ce3f4f7e714350c2529f070578",
+    "url": "/Memory-Game/static/media/MuseoSansCyrl-500.07a8a8ce.woff"
+  },
+  {
+    "revision": "1d7a7e5d778082a4c570f5cbcc21f6b8",
+    "url": "/Memory-Game/static/media/MuseoSansCyrl-500.1d7a7e5d.ttf"
+  },
+  {
+    "revision": "7c330a9e60b1e0e1c468d65cad0904c5",
+    "url": "/Memory-Game/static/media/MuseoSansCyrl-500.7c330a9e.eot"
+  },
+  {
+    "revision": "b533077ca00019bab65f5538f75d54e3",
+    "url": "/Memory-Game/static/media/MuseoSansCyrl-500.b533077c.woff2"
+  },
+  {
+    "revision": "fe8c54f3ee6921e4d46f38016c26406e",
+    "url": "/Memory-Game/static/media/MuseoSansCyrl-500.fe8c54f3.svg"
   },
   {
     "revision": "582353360e3be217cd718176e425593c",
@@ -98,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1867ba3481638100993b347722388f8",
     "url": "/Memory-Game/static/media/croissant.e1867ba3.jpeg"
+  },
+  {
+    "revision": "6167fd4b66ae0fbced5125f47d73da22",
+    "url": "/Memory-Game/static/media/cuphead.6167fd4b.png"
   },
   {
     "revision": "8cc984070a5c876a63af4d1fdb796dc9",
@@ -194,5 +218,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d030d23bfb4e868dc900bdad42795b5b",
     "url": "/Memory-Game/static/media/victory.d030d23b.png"
+  },
+  {
+    "revision": "846310606d1a05b81e77e8eee6424848",
+    "url": "/Memory-Game/static/media/victory_shine.84631060.png"
   }
 ]);
