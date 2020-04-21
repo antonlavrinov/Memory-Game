@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2501755df7a5c283b84736297294d1e",
+    "revision": "dd6c25a107b398d2cdd567724ae0ab45",
     "url": "/Memory-Game/index.html"
   },
   {
-    "revision": "65f3d20b03109390a43e",
-    "url": "/Memory-Game/static/css/main.976b3b4f.chunk.css"
+    "revision": "44086672cab0997c1605",
+    "url": "/Memory-Game/static/css/main.61f47a92.chunk.css"
   },
   {
-    "revision": "b3aaad703c8b9f050560",
-    "url": "/Memory-Game/static/js/2.1c80c1f0.chunk.js"
+    "revision": "af742f91198f809198fa",
+    "url": "/Memory-Game/static/js/2.29a26f5b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Memory-Game/static/js/2.1c80c1f0.chunk.js.LICENSE.txt"
+    "url": "/Memory-Game/static/js/2.29a26f5b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65f3d20b03109390a43e",
-    "url": "/Memory-Game/static/js/main.655f6472.chunk.js"
+    "revision": "44086672cab0997c1605",
+    "url": "/Memory-Game/static/js/main.163431a3.chunk.js"
   },
   {
     "revision": "934317a64f3e6b556200",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/CupheadFelix-Regular.af75ba30.woff"
   },
   {
-    "revision": "30bd7aa3eecddc3655db610c3cd859f7",
-    "url": "/Memory-Game/static/media/DEVIL_game-over-min.30bd7aa3.png"
+    "revision": "287ac055f77518df091db44791ecd6be",
+    "url": "/Memory-Game/static/media/DEVIL_game-over-min4.287ac055.png"
   },
   {
     "revision": "064dd73a1b4bc3f58131c3ad8a11d106",
@@ -144,6 +144,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/devil_menu-min.cbdc1b12.png"
   },
   {
+    "revision": "dd67c738a2b2650fdfe27218a1101066",
+    "url": "/Memory-Game/static/media/devil_victory-min.dd67c738.png"
+  },
+  {
     "revision": "d7ae290c943a8523829347abd4c85c71",
     "url": "/Memory-Game/static/media/devil_voice1.d7ae290c.mp3"
   },
@@ -160,8 +164,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/donut-min.d37372e0.jpg"
   },
   {
-    "revision": "b06bc8e36ea407b19b61a515f33886d8",
-    "url": "/Memory-Game/static/media/game-over.b06bc8e3.png"
+    "revision": "0cc33c47224d142fd6f5331330020da3",
+    "url": "/Memory-Game/static/media/game-over-min.0cc33c47.png"
+  },
+  {
+    "revision": "ae71b423373a7c8d23b9238c20321ae7",
+    "url": "/Memory-Game/static/media/game-over_shine-red-min.ae71b423.png"
   },
   {
     "revision": "9b1b2309626b1acd0ad1fd6624f43cf2",
@@ -174,6 +182,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "92ecffd27d2483ec6693b69cf09edc51",
     "url": "/Memory-Game/static/media/roll-min.92ecffd2.jpg"
+  },
+  {
+    "revision": "4b5813629df91d7b934f241436e938e6",
+    "url": "/Memory-Game/static/media/sfx_amb_hell.4b581362.wav"
+  },
+  {
+    "revision": "46d11489179644aa78dcbd0e56d59beb",
+    "url": "/Memory-Game/static/media/sfx_devil_imp_death_01.46d11489.wav"
+  },
+  {
+    "revision": "d0402a8260f6ff73a852a10dff69e8f0",
+    "url": "/Memory-Game/static/media/sfx_devil_imp_death_02.d0402a82.wav"
+  },
+  {
+    "revision": "fb905456c335ba8966ece5999c2c00fe",
+    "url": "/Memory-Game/static/media/sfx_devil_imp_death_03.fb905456.wav"
+  },
+  {
+    "revision": "ff3033ec772cae6f39269bae6666b72d",
+    "url": "/Memory-Game/static/media/sfx_devil_imp_death_04.ff3033ec.wav"
   },
   {
     "revision": "3c2104a9ba49459477320603ca8c3a8a",
@@ -196,20 +224,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/sfx_flower_laughs_05.4413fb38.mp3"
   },
   {
-    "revision": "4b4365382b0326794bb8eea41ae29c37",
-    "url": "/Memory-Game/static/media/sfx_level_devil_head_devil_cry_idle_001.4b436538.wav"
+    "revision": "b3b0a4608069c816a31b721b5c31d205",
+    "url": "/Memory-Game/static/media/sfx_player_death_01.b3b0a460.wav"
   },
   {
-    "revision": "d4f43412a639e755904dc594d57a97f8",
-    "url": "/Memory-Game/static/media/sfx_level_devil_head_devil_cry_idle_002.d4f43412.wav"
-  },
-  {
-    "revision": "03017487ee61a03b56df685dc277067c",
-    "url": "/Memory-Game/static/media/sfx_level_devil_head_devil_cry_idle_003.03017487.wav"
-  },
-  {
-    "revision": "e917853c96b5c64e4c0e671d6b009547",
-    "url": "/Memory-Game/static/media/sfx_level_veggies_Onion_01.e917853c.wav"
+    "revision": "e5d45b05fdb2caf6ec92b330586c24d6",
+    "url": "/Memory-Game/static/media/sfx_player_death_02.e5d45b05.wav"
   },
   {
     "revision": "b71e8a36ab7fb6b29b2f5169357a38bf",
@@ -250,5 +270,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d9b26759292c1e4ed05e41ca9e66424",
     "url": "/Memory-Game/static/media/victory_shine-min.4d9b2675.png"
+  },
+  {
+    "revision": "3acffb0bfec90038a77174b961c79646",
+    "url": "/Memory-Game/static/media/win_award_ping_01.3acffb0b.wav"
   }
 ]);
