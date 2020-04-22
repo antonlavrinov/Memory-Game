@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a49c0bbff6568ded152c212aaff1fd38",
+    "revision": "f5c7235093abba6672d81b6d3345438c",
     "url": "/Memory-Game/index.html"
   },
   {
-    "revision": "26c7cccd85513d5bde7f",
+    "revision": "59f5c70fdf46328d4237",
     "url": "/Memory-Game/static/css/main.7df178ac.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/js/2.de50c1e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "26c7cccd85513d5bde7f",
-    "url": "/Memory-Game/static/js/main.e648f3d3.chunk.js"
+    "revision": "59f5c70fdf46328d4237",
+    "url": "/Memory-Game/static/js/main.3c6684ff.chunk.js"
   },
   {
     "revision": "934317a64f3e6b556200",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/CupheadFelix-Regular.af75ba30.woff"
   },
   {
-    "revision": "b4334831fb79fb5badc81ac4bec581c0",
-    "url": "/Memory-Game/static/media/DEVIL_game-over-min5.b4334831.png"
+    "revision": "0cf2b2965e06aba5fa2e30c709a51cc4",
+    "url": "/Memory-Game/static/media/DEVIL_game-over-min.0cf2b296.png"
   },
   {
     "revision": "de47f9129fb0599e1430d2bd3b75e29d",
@@ -148,8 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/devil_menu-min.cbdc1b12.png"
   },
   {
-    "revision": "efdee39575b8278befbd83371e6f97c7",
-    "url": "/Memory-Game/static/media/devil_victory-min1.efdee395.png"
+    "revision": "cd62191b5b6c99f13c269f0bd9e83b3d",
+    "url": "/Memory-Game/static/media/devil_victory-min.cd62191b.png"
   },
   {
     "revision": "d7ae290c943a8523829347abd4c85c71",

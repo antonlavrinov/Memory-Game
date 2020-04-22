@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Memory-Game/static/css/main.7df178ac.chunk.css",
-    "main.js": "/Memory-Game/static/js/main.e648f3d3.chunk.js",
-    "main.js.map": "/Memory-Game/static/js/main.e648f3d3.chunk.js.map",
+    "main.js": "/Memory-Game/static/js/main.3c6684ff.chunk.js",
+    "main.js.map": "/Memory-Game/static/js/main.3c6684ff.chunk.js.map",
     "runtime-main.js": "/Memory-Game/static/js/runtime-main.512922fd.js",
     "runtime-main.js.map": "/Memory-Game/static/js/runtime-main.512922fd.js.map",
     "static/js/2.de50c1e3.chunk.js": "/Memory-Game/static/js/2.de50c1e3.chunk.js",
     "static/js/2.de50c1e3.chunk.js.map": "/Memory-Game/static/js/2.de50c1e3.chunk.js.map",
     "index.html": "/Memory-Game/index.html",
-    "precache-manifest.7bd91e5742c1e7f683e77b6b46fb38f1.js": "/Memory-Game/precache-manifest.7bd91e5742c1e7f683e77b6b46fb38f1.js",
+    "precache-manifest.b3665261b416aa2c925926d44f95b903.js": "/Memory-Game/precache-manifest.b3665261b416aa2c925926d44f95b903.js",
     "service-worker.js": "/Memory-Game/service-worker.js",
     "static/css/main.7df178ac.chunk.css.map": "/Memory-Game/static/css/main.7df178ac.chunk.css.map",
     "static/js/2.de50c1e3.chunk.js.LICENSE.txt": "/Memory-Game/static/js/2.de50c1e3.chunk.js.LICENSE.txt",
     "static/media/App.sass": "/Memory-Game/static/media/victory_shine-min.4d9b2675.png",
-    "static/media/DEVIL_game-over-min5.png": "/Memory-Game/static/media/DEVIL_game-over-min5.b4334831.png",
+    "static/media/DEVIL_game-over-min.png": "/Memory-Game/static/media/DEVIL_game-over-min.0cf2b296.png",
     "static/media/MUS_LegendaryGhost-min.mp3": "/Memory-Game/static/media/MUS_LegendaryGhost-min.de47f912.mp3",
     "static/media/MUS_Mausoleum.mp3": "/Memory-Game/static/media/MUS_Mausoleum.064dd73a.mp3",
     "static/media/VICTORY.mp3": "/Memory-Game/static/media/VICTORY.6f196df8.mp3",
@@ -27,7 +27,7 @@
     "static/media/cuphead.png": "/Memory-Game/static/media/cuphead.6167fd4b.png",
     "static/media/devil1-min.png": "/Memory-Game/static/media/devil1-min.a2595e64.png",
     "static/media/devil_menu-min.png": "/Memory-Game/static/media/devil_menu-min.cbdc1b12.png",
-    "static/media/devil_victory-min1.png": "/Memory-Game/static/media/devil_victory-min1.efdee395.png",
+    "static/media/devil_victory-min.png": "/Memory-Game/static/media/devil_victory-min.cd62191b.png",
     "static/media/devil_voice1.mp3": "/Memory-Game/static/media/devil_voice1.d7ae290c.mp3",
     "static/media/devil_voice2.mp3": "/Memory-Game/static/media/devil_voice2.ff2d16e5.mp3",
     "static/media/devil_voice3.mp3": "/Memory-Game/static/media/devil_voice3.ac4cf7bc.mp3",
@@ -62,6 +62,6 @@
     "static/js/runtime-main.512922fd.js",
     "static/js/2.de50c1e3.chunk.js",
     "static/css/main.7df178ac.chunk.css",
-    "static/js/main.e648f3d3.chunk.js"
+    "static/js/main.3c6684ff.chunk.js"
   ]
 }
