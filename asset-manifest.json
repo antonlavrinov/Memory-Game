@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Memory-Game/static/css/main.7df178ac.chunk.css",
-    "main.js": "/Memory-Game/static/js/main.3c6684ff.chunk.js",
-    "main.js.map": "/Memory-Game/static/js/main.3c6684ff.chunk.js.map",
+    "main.css": "/Memory-Game/static/css/main.e8a67820.chunk.css",
+    "main.js": "/Memory-Game/static/js/main.f2a35ebf.chunk.js",
+    "main.js.map": "/Memory-Game/static/js/main.f2a35ebf.chunk.js.map",
     "runtime-main.js": "/Memory-Game/static/js/runtime-main.512922fd.js",
     "runtime-main.js.map": "/Memory-Game/static/js/runtime-main.512922fd.js.map",
-    "static/js/2.de50c1e3.chunk.js": "/Memory-Game/static/js/2.de50c1e3.chunk.js",
-    "static/js/2.de50c1e3.chunk.js.map": "/Memory-Game/static/js/2.de50c1e3.chunk.js.map",
+    "static/js/2.67e433d4.chunk.js": "/Memory-Game/static/js/2.67e433d4.chunk.js",
+    "static/js/2.67e433d4.chunk.js.map": "/Memory-Game/static/js/2.67e433d4.chunk.js.map",
     "index.html": "/Memory-Game/index.html",
-    "precache-manifest.b3665261b416aa2c925926d44f95b903.js": "/Memory-Game/precache-manifest.b3665261b416aa2c925926d44f95b903.js",
+    "precache-manifest.4ee46917a6dd649c6d2cd9533a88859d.js": "/Memory-Game/precache-manifest.4ee46917a6dd649c6d2cd9533a88859d.js",
     "service-worker.js": "/Memory-Game/service-worker.js",
-    "static/css/main.7df178ac.chunk.css.map": "/Memory-Game/static/css/main.7df178ac.chunk.css.map",
-    "static/js/2.de50c1e3.chunk.js.LICENSE.txt": "/Memory-Game/static/js/2.de50c1e3.chunk.js.LICENSE.txt",
+    "static/css/main.e8a67820.chunk.css.map": "/Memory-Game/static/css/main.e8a67820.chunk.css.map",
+    "static/js/2.67e433d4.chunk.js.LICENSE.txt": "/Memory-Game/static/js/2.67e433d4.chunk.js.LICENSE.txt",
     "static/media/App.sass": "/Memory-Game/static/media/victory_shine-min.4d9b2675.png",
     "static/media/DEVIL_game-over-min.png": "/Memory-Game/static/media/DEVIL_game-over-min.0cf2b296.png",
     "static/media/MUS_LegendaryGhost-min.mp3": "/Memory-Game/static/media/MUS_LegendaryGhost-min.de47f912.mp3",
@@ -60,8 +60,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.512922fd.js",
-    "static/js/2.de50c1e3.chunk.js",
-    "static/css/main.7df178ac.chunk.css",
-    "static/js/main.3c6684ff.chunk.js"
+    "static/js/2.67e433d4.chunk.js",
+    "static/css/main.e8a67820.chunk.css",
+    "static/js/main.f2a35ebf.chunk.js"
   ]
 }
