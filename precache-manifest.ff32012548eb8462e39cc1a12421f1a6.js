@@ -1,47 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e290598b500bf9dc8ceea82ecb4fcdd",
+    "revision": "0fc6f8c29cf01a5db9cb6eb3e92669d0",
     "url": "/Memory-Game/index.html"
   },
   {
-    "revision": "f53c9c8a8b5a38498129",
-    "url": "/Memory-Game/static/css/main.e8a67820.chunk.css"
+    "revision": "94795f152cee5d4774d0",
+    "url": "/Memory-Game/static/css/main.3383d2f0.chunk.css"
   },
   {
-    "revision": "a13b65559a0c1f16bc54",
-    "url": "/Memory-Game/static/js/2.67e433d4.chunk.js"
+    "revision": "fc7219f36cd7d9c11d1c",
+    "url": "/Memory-Game/static/js/2.47518231.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Memory-Game/static/js/2.67e433d4.chunk.js.LICENSE.txt"
+    "revision": "5eeaef24d459591afeaec501ac57b571",
+    "url": "/Memory-Game/static/js/2.47518231.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f53c9c8a8b5a38498129",
-    "url": "/Memory-Game/static/js/main.f2a35ebf.chunk.js"
+    "revision": "94795f152cee5d4774d0",
+    "url": "/Memory-Game/static/js/main.97e34dce.chunk.js"
   },
   {
     "revision": "934317a64f3e6b556200",
     "url": "/Memory-Game/static/js/runtime-main.512922fd.js"
   },
   {
-    "revision": "2f41e81d3efbc7e34549e00017157c30",
-    "url": "/Memory-Game/static/media/CupheadFelix-Regular.2f41e81d.svg"
+    "revision": "139f2df7aa4bcbd6905e05a66a5544aa",
+    "url": "/Memory-Game/static/media/ComicSansMS-Bold.139f2df7.eot"
   },
   {
-    "revision": "5862e4b23bfef068eeb1de796556d589",
-    "url": "/Memory-Game/static/media/CupheadFelix-Regular.5862e4b2.ttf"
+    "revision": "5ad04146d8245dde14ba4ada8b3ece52",
+    "url": "/Memory-Game/static/media/ComicSansMS-Bold.5ad04146.woff"
   },
   {
-    "revision": "64fe94713cb29bb699bb9603cd152761",
-    "url": "/Memory-Game/static/media/CupheadFelix-Regular.64fe9471.woff2"
+    "revision": "86168c9c314a4603ec3e3d495b69317b",
+    "url": "/Memory-Game/static/media/ComicSansMS-Bold.86168c9c.woff2"
   },
   {
-    "revision": "a13cc5dd710825bcc10c7ad5ba9283fb",
-    "url": "/Memory-Game/static/media/CupheadFelix-Regular.a13cc5dd.eot"
+    "revision": "c972784a560539c2162888671fc49930",
+    "url": "/Memory-Game/static/media/ComicSansMS-Bold.c972784a.svg"
   },
   {
-    "revision": "af75ba307dba3253d261f6c67b7659cb",
-    "url": "/Memory-Game/static/media/CupheadFelix-Regular.af75ba30.woff"
+    "revision": "f49a15b9ed5cf7756627cfe830f1f246",
+    "url": "/Memory-Game/static/media/ComicSansMS-Bold.f49a15b9.ttf"
+  },
+  {
+    "revision": "407b388a687c6a4d66422d38416481a9",
+    "url": "/Memory-Game/static/media/CupheadFelix-Regular.407b388a.eot"
+  },
+  {
+    "revision": "4144feea0a84d78ced4ab9eb2875060a",
+    "url": "/Memory-Game/static/media/CupheadFelix-Regular.4144feea.woff"
+  },
+  {
+    "revision": "4e9feb345f70df50d8d05af014d67818",
+    "url": "/Memory-Game/static/media/CupheadFelix-Regular.4e9feb34.svg"
+  },
+  {
+    "revision": "b3da717f5b56331d4e63593f29d88cc1",
+    "url": "/Memory-Game/static/media/CupheadFelix-Regular.b3da717f.woff2"
+  },
+  {
+    "revision": "e08211b4c2f5040275829effc84ee416",
+    "url": "/Memory-Game/static/media/CupheadFelix-Regular.e08211b4.ttf"
   },
   {
     "revision": "0cf2b2965e06aba5fa2e30c709a51cc4",
@@ -54,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "064dd73a1b4bc3f58131c3ad8a11d106",
     "url": "/Memory-Game/static/media/MUS_Mausoleum.064dd73a.mp3"
+  },
+  {
+    "revision": "55b95f1c3725d825f2f7e62764efee92",
+    "url": "/Memory-Game/static/media/Menu_Move.55b95f1c.mp3"
   },
   {
     "revision": "07a8a8ce3f4f7e714350c2529f070578",
@@ -104,8 +128,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/background-min.f112783b.jpg"
   },
   {
+    "revision": "f09ce5444f46d7c537482cb58045284e",
+    "url": "/Memory-Game/static/media/ball-min.f09ce544.png"
+  },
+  {
     "revision": "0e4cde120f763f4a39d5c1f6708629ac",
     "url": "/Memory-Game/static/media/cake-min.0e4cde12.jpg"
+  },
+  {
+    "revision": "49ed91a92c54ea0f3b1b2c750c23957e",
+    "url": "/Memory-Game/static/media/candy-min.49ed91a9.png"
   },
   {
     "revision": "5cc9c94239006f9b51e4f6a64729927c",
@@ -113,7 +145,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "00285127ade5ab1a104c2a0a77fa463f",
-    "url": "/Memory-Game/static/media/card_back4-min.00285127.jpg"
+    "url": "/Memory-Game/static/media/card_back-min.00285127.jpg"
+  },
+  {
+    "revision": "3d612bfe90dff4ba4c2256becd8652ca",
+    "url": "/Memory-Game/static/media/chocolate-ball-min.3d612bfe.png"
+  },
+  {
+    "revision": "a33d5247ad618fc7f29a8fbb01b12afe",
+    "url": "/Memory-Game/static/media/chocolate-min.a33d5247.png"
+  },
+  {
+    "revision": "7da57143d42effde2267e1c66f60af3d",
+    "url": "/Memory-Game/static/media/chupa-min.7da57143.png"
   },
   {
     "revision": "73639bde3c4a3a1f2786dd29317616bd",
@@ -136,20 +180,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/croissant-min.af65c039.jpg"
   },
   {
-    "revision": "6167fd4b66ae0fbced5125f47d73da22",
-    "url": "/Memory-Game/static/media/cuphead.6167fd4b.png"
-  },
-  {
     "revision": "a2595e6498e2bf7b51dc25b97b170f80",
-    "url": "/Memory-Game/static/media/devil1-min.a2595e64.png"
+    "url": "/Memory-Game/static/media/devil-min.a2595e64.png"
   },
   {
-    "revision": "cbdc1b129f9941849ce27d312410c9b7",
-    "url": "/Memory-Game/static/media/devil_menu-min.cbdc1b12.png"
+    "revision": "affc7b8e8e5dc01e9777e69174dd08d0",
+    "url": "/Memory-Game/static/media/devil_menu-angry-min.affc7b8e.png"
   },
   {
-    "revision": "cd62191b5b6c99f13c269f0bd9e83b3d",
-    "url": "/Memory-Game/static/media/devil_victory-min.cd62191b.png"
+    "revision": "8b9d2e57747a8983b9584f81c1604455",
+    "url": "/Memory-Game/static/media/devil_menu-min.8b9d2e57.png"
+  },
+  {
+    "revision": "d1da394463bc225374f85f6adea02f9c",
+    "url": "/Memory-Game/static/media/devil_menu-open-mouth-min.d1da3944.png"
+  },
+  {
+    "revision": "ec0cd8028fa57f5a5b220a268ffb230a",
+    "url": "/Memory-Game/static/media/devil_menu-satisfied-min.ec0cd802.png"
+  },
+  {
+    "revision": "1bce381643ec040a2517aa6a977676a8",
+    "url": "/Memory-Game/static/media/devil_victory-min.1bce3816.png"
   },
   {
     "revision": "d7ae290c943a8523829347abd4c85c71",
@@ -164,12 +216,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/devil_voice3.ac4cf7bc.mp3"
   },
   {
-    "revision": "ea129235bdb6e30393683e68783c2696",
-    "url": "/Memory-Game/static/media/dialog_game-over-min.ea129235.png"
-  },
-  {
     "revision": "d37372e0082f9e959aa943525b917290",
     "url": "/Memory-Game/static/media/donut-min.d37372e0.jpg"
+  },
+  {
+    "revision": "d2c4a9d440de8f65d266708378560137",
+    "url": "/Memory-Game/static/media/doorSlide.d2c4a9d4.mp3"
   },
   {
     "revision": "0cc33c47224d142fd6f5331330020da3",
@@ -180,16 +232,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game/static/media/game-over_shine-red-min.ae71b423.png"
   },
   {
+    "revision": "5e98861f6ef1ce225121abfb3f418166",
+    "url": "/Memory-Game/static/media/getFetch.5e98861f.cjs"
+  },
+  {
+    "revision": "34e83ca95ad83bac2051d03dd7cc5bbd",
+    "url": "/Memory-Game/static/media/language-en.34e83ca9.jpg"
+  },
+  {
+    "revision": "8f7a1658ad01567a4e3a3ed94ef4333c",
+    "url": "/Memory-Game/static/media/lemon-min.8f7a1658.png"
+  },
+  {
+    "revision": "bb93d475de230fdb19522e4812720124",
+    "url": "/Memory-Game/static/media/lollypop-min.bb93d475.png"
+  },
+  {
+    "revision": "335370074308f52b46c8ee875aa95c56",
+    "url": "/Memory-Game/static/media/marshmallow-min.33537007.png"
+  },
+  {
+    "revision": "22dc2831ca45e404c1f501691c2c7223",
+    "url": "/Memory-Game/static/media/mellow-min.22dc2831.png"
+  },
+  {
     "revision": "9b1b2309626b1acd0ad1fd6624f43cf2",
     "url": "/Memory-Game/static/media/memory-game-min.9b1b2309.png"
   },
   {
-    "revision": "7fb8831539a76e6c6e8a6af70ea765e8",
-    "url": "/Memory-Game/static/media/menu_background.7fb88315.jpg"
+    "revision": "080cb902890686b5c64c34e0f2c4bb6b",
+    "url": "/Memory-Game/static/media/menu_background-min.080cb902.jpg"
+  },
+  {
+    "revision": "bed67dcd68f7c7422121fda4e3df156e",
+    "url": "/Memory-Game/static/media/pumpkin-min.bed67dcd.png"
   },
   {
     "revision": "92ecffd27d2483ec6693b69cf09edc51",
     "url": "/Memory-Game/static/media/roll-min.92ecffd2.jpg"
+  },
+  {
+    "revision": "f18cbba4ba6461011c3500c14762aa9f",
+    "url": "/Memory-Game/static/media/search_not-found.f18cbba4.svg"
   },
   {
     "revision": "8006284816563c43e956e4b26bb516f2",
@@ -206,6 +290,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "89a96f725b57bf0e8ab024899acd6217",
     "url": "/Memory-Game/static/media/sfx_devil_imp_death_04.89a96f72.mp3"
+  },
+  {
+    "revision": "3c586464477eb506fd8ee54891621160",
+    "url": "/Memory-Game/static/media/sfx_dice_palace_domino_intro_start_loop_01.3c586464.mp3"
   },
   {
     "revision": "3c2104a9ba49459477320603ca8c3a8a",
@@ -226,6 +314,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4413fb38520594288ad989032013b64f",
     "url": "/Memory-Game/static/media/sfx_flower_laughs_05.4413fb38.mp3"
+  },
+  {
+    "revision": "f1d01e495d9b52c270432ff4f26c2f56",
+    "url": "/Memory-Game/static/media/sfx_level_dragon_fire_marcher_B_crouch_start_01.f1d01e49.mp3"
+  },
+  {
+    "revision": "82ecfe0802ddd3bc957171253799724e",
+    "url": "/Memory-Game/static/media/sfx_level_dragon_fire_marcher_B_crouch_start_02.82ecfe08.mp3"
+  },
+  {
+    "revision": "896bbb955b5874b40452e7eae7d0ecd3",
+    "url": "/Memory-Game/static/media/sfx_level_mouse_can_catapult_glug_02.896bbb95.mp3"
+  },
+  {
+    "revision": "96bc6d3e800830a72d29c8a3040750ea",
+    "url": "/Memory-Game/static/media/sfx_platforming_flowergrunt_02.96bc6d3e.mp3"
+  },
+  {
+    "revision": "18629600e554ef298d265748054e30fa",
+    "url": "/Memory-Game/static/media/sfx_platforming_flowergrunt_03.18629600.mp3"
+  },
+  {
+    "revision": "ec9f79b334d140ecb8f9858c329098da",
+    "url": "/Memory-Game/static/media/sfx_platforming_flowergrunt_04.ec9f79b3.mp3"
+  },
+  {
+    "revision": "31ce97489cf45b3e80dfb02fcaa2d149",
+    "url": "/Memory-Game/static/media/sfx_platforming_flowergrunt_05.31ce9748.mp3"
   },
   {
     "revision": "a191c59d952a40c1ac71800a719259d0",
