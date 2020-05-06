@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProgressBar = ({timeRemaining, level}) => {
-    const progressBarStyle = level === 'simple' ? 25 : level === 'regular' ? 30 : level === 'expert' ? 90 : 0;  
+    const progressBarStyle = level === 'simple' ? 25 : level === 'regular' ? 30 : level === 'expert' ? 50 : 0;  
     return (
         <div className='progress-bar'>
             <div className="progress-bar__ends progress-bar__ends_top"></div>

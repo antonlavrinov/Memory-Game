@@ -1,8 +1,8 @@
 import React from 'react';
 import {CSSTransition} from 'react-transition-group';
-const Curtain = ({game, menu}) => {
+const Curtain = ({curtain, menu, game}) => {
     return (
-        <CSSTransition in={!game && !menu} unmountOnExit timeout={300} classNames='fade'>
+        <CSSTransition in={curtain} unmountOnExit timeout={300} classNames='fade'>
             <div className="curtain"></div> 
         </CSSTransition>
         

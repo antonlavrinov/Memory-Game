@@ -1,0 +1,52 @@
+{
+  "candies": {
+    "chocolate": "chocolate candy",
+    "chocolateBall": "chocolate and hazelnut candy",
+    "chupa": "chupa chups candy",
+    "candy": "purple candy",
+    "mellon": "watermelon wedge candy",
+    "ball": "purple ball candy",
+    "lollypop": "lollypop candy",
+    "lemon": "lemon wedge candy",
+    "marshmallow": "marshmallow candy",
+    "taste": {
+      "chocolate": "milk chocolate",
+      "chocolateBall": "coffee",
+      "chupa": "caramel",
+      "candy": "mint",
+      "mellon": "blueberry",
+      "ball": "coconut",
+      "lollypop": "orange juice",
+      "lemon": "something delicious and sour",
+      "marshmallow": "a fresh peach"
+    }
+  },
+  "dialogues": {
+    "dialogueStart":"Hi there!😈 I'm Lucifer.<br> And I'm gonna steal all those sweets from you!",
+    "dialogueAngry": "Hey! What are you doing!? Give it to me!!! Or you will see my wrath!😠👿😡",
+    "dialogueSatisfied": {
+      "thankYou": "mmm... Thank you for <br> a treat!🤤😋😇 <br>",
+      "this": "This",
+      "tastes": "tastes like",
+      "ending": "But don't take me for a fool. I will steal all those sweets from you anyway!"
+    },
+    "dialogueVictory": "You win...<br>How could this happen..?",
+    "dialogueGameOver": "Oops... Looks like your sweets are mine now!"
+  },
+  "tutorialMessage": "Don’t let <span class='orange-text'>The Fat Devil</span> steal all your sweets! Match the cards <br/> on board till the time runs out!",
+
+  "levels": {
+    "simple": "Simple",
+    "regular": "Regular",
+    "expert": "Expert"
+  },
+  "candyBag": "Candy Bag",
+  "emptyCandyBag": {
+    "title": "No candies found...",
+    "tutorial": "Play the game to get unique candies for each level. <br> You can also feed the fat devil with one of your candies."
+  },
+  "gift": "Here's your gift!",
+  "menu": "Menu",
+  "startAgain": "Start Again"
+
+}

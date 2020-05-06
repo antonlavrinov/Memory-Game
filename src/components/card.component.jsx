@@ -3,11 +3,8 @@ import ReactCardFlip from 'react-card-flip';
 
 
 const Card = ({cardToCheck, card, flipCard, matchedCards, disabled}) => {
-    console.log(card.url)
     return(
         <ReactCardFlip className='noSelect' containerStyle={{
-
-                                    // display: `${matchedCards ? 'none' : 'block'}`,
                                     opacity: `${matchedCards ? '0' : '1'}`,
                                     transition: 'all 0.5s ease',
                                     marginTop: `${matchedCards ? '-10px' : '0'}`,

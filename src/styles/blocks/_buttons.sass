@@ -1,40 +1,55 @@
 .button
-    min-width: 150px
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    min-width: 155px
     height: 60px
     border-radius: 8px
     border: none
     background: black
     color: white
     text-transform: uppercase
-    font-family: Plump
-    font-size: 20px
+    font-family: $font
+    font-size: 18px
     letter-spacing: .070em
+    padding: 5px
+
+    &__check-icon
+        width: 20px
+        height: 20px
+        color: white
+        margin-top: 4px
+        margin-left: 8px
+        animation: backgroundRotate 2s linear infinite
     &:focus
         outline: none
     &_orange
+        padding-bottom: 10px
         background: $orange-gradient
         box-shadow: inset 0px 0px 15px rgba(255,255,255,0.5)
         &:hover
             box-shadow: inset 0px 0px 15px rgba(255,255,255,0.5), 0px 0px 15px $orange
-            // background: $orange
-            // box-shadow: none
     &_purple
+        padding-bottom: 10px
         background: $purple-gradient
-        box-shadow: inset 0px 0px 15px rgba(255,255,255,0.5)
+        box-shadow: inset 0px 0px 9px #d39dff
         &:hover
-            box-shadow: inset 0px 0px 15px rgba(255,255,255,0.5), 0px 0px 15px $purple
+            box-shadow: inset 0px 0px 9px #d39dff, 0px 0px 20px #9a1eff
+
 
     &_brown
+        padding-bottom: 10px
         background: $brown-gradient-button
         box-shadow: inset 0px 0px 15px #c33825
+        &:hover
+            box-shadow: inset 0px 0px 15px #c33825, 0px 0px 20px #6d0808
     &:hover
         cursor: pointer
-    &_top-line
+    &_bottom-line
         min-width: 0px
-        // min-height: 50px
         padding: 20px
         margin-right: 10px
-        // background: black
     &_result
         width: 100%
         margin-right: 15px

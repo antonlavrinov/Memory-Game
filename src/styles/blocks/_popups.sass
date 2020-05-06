@@ -1,31 +1,66 @@
 .popup
     position: absolute
     z-index: 3
+    width: 100%
+    height: 100%
     
+    .modal__buttons-block_result
+      margin-top: 40px
+
+    &__black
+      width: 150%
+      height: 150%
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      background: rgba(0,0,0,1)
+    &__shine
+      width: 100%
+      height: 100%
+      position: absolute
+      background: center center / cover
+      background-size: cover
+      background-position: center center
+      background-image: url('../../images/victory_shine-min.png') 
+      background-repeat: no-repeat
+      animation: shineRotate 15s linear infinite
+      &_red
+        background: url('../../images/game-over_shine-red-min.png') center center no-repeat
     &_victory
     &__overlay
         position: fixed
         width: 100%
         height: 100%
-        background: rgba(0,0,0,0.9)
         top: 0
         left: 0
+        &_result
+          position: absolute
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
     &__modal
-        position: absolute
-        top: 50%
-        left: 50%
-        transform: translate(-50%, -50%)
+        position: relative
+        margin: 0 auto
         width: 500px
         height: 400px
         background: grey
+        
 .main-menu
   position: relative
-  // z-index: 1
-  // top: 0
-  // left: 0
   width: 100%
   height: 100%
   background: #22000a
+  .button
+    min-width: 0
+    width: 100%
+    margin-right: 15px
+    &:last-child
+      margin-right: 0
+  .modal
+    padding: 30px
+    padding-top: 62px
+
 
     
   &__logo
@@ -37,62 +72,118 @@
     z-index: 3
     user-select: none
   &__overlay
-    // user-select: none
     position: absolute
-    
     z-index: 1
     width: 100%
     height: 100%
     background: center center / cover
     background-size: cover
     background-position: center center
-    background-image: url('../../images/menu_background.jpg') 
+    background-image: url('../../images/menu_background-min.jpg') 
     animation: backgroundRotate 5s linear infinite
 .modal
     width: 560px
-    // height: 300px
-    left: 50%
-    transform: translateX(-50%)
-
     background: $dark-brown-gradient
     border-radius: 10px
     box-shadow: 0px 10px 20px rgba(0,0,0,0.7), inset 0px 0px 10px rgba(255,66,0,0.5)
     border: 2px solid black
-    position: absolute
+    position: relative
+    margin: 0 auto
     display: flex
     flex-direction: column
     justify-content: center
-    padding: 35px
-    padding-top: 60px
-
-    top: 520px
+    padding: 15px
+    top: 450px
     z-index: 6
-    &__buttons-block
+    &__tutorial
+      width: 100%
+      height: 100%
+      position: absolute
+      z-index: 1
+      text-align: center
+      display: flex
+      justify-content: center
+      align-items: center
+      box-shadow: inset 0px 3px 3px rgba(0,0,0,0.5), 0 5px 10px rgba(0,0,0,0.5)
+      transition: all 0.6s ease
+      top: 0
+      left: 0
+      background: #2e0209
+      &_disabled
+        top: -100%
+      &-text
+        padding: 15px
+        font-family: $font
+        transition: all 0.5s ease
+        &_disabled
+          opacity: 0
+
+    &__main-block
       display: flex
       justify-content: space-between
-    &__text-block
+    &__candy-block
+      min-height: 158px
+      min-width: 175px
       padding: 20px
       border-radius: 8px
       background: #2e0209
+      margin-bottom: 20px
+      display: flex
+      align-items: center
+      justify-content: center
+      box-shadow: inset 0px 3px 3px rgba(0,0,0,0.5), 0px 0px 10px rgba(255,66,0,0.5)
+    &__buttons-block
+
+      display: flex
+      justify-content: space-between
+    &__text-block
+      overflow: hidden
+      position: relative
+      margin-left: 15px
+      padding: 0px
+      width: auto
+      border-radius: 8px
+      background: #2e0209
       color: $pale-orange
-      font-size: 16px
-      font-family: 'Cuphead Felix'
+      font-size: 14px
+
       margin-bottom: 20px
       text-align: center
       line-height: 1.5
       box-shadow: inset 0px 3px 3px rgba(0,0,0,0.5), 0px 0px 10px rgba(255,66,0,0.5)
       &_result
-        // padding:
-
+        height: 200px
     &__result-img
-      width: 450px
+      width: 100%
+      height: 100%
+      padding-bottom: 20px
+
+      &-block
+        min-height: 279px
+        &_gameOver
+          min-height: 194px
+        
       &_gameOver
         padding-top: 30px
+        min-height: 194px
+    &__frame
+      border: 1px solid #ffb652
+      border-radius: 5px
+      padding: 25px
+      box-shadow: 0 0 5px rgba(255,182,82,0.6)
+      min-height: 431px
+      &_gameOver
+        min-height: 345px
+        border: none
+        box-shadow: none
     &_result
-      top: 50%
-      left: 50%
-      transform: translate(-50%, -50%)
+      top: 40%
 
+@keyframes shineRotate
+  0%
+
+  100%
+    transform: rotate(360deg) 
 @keyframes backgroundRotate
   0%
     
@@ -104,11 +195,9 @@
 
 .popup__modal-enter 
   opacity: 0
-//   transform: scale(0.9)
 
 .popup__modal-enter-active 
   opacity: 1
-//   transform: translateX(0)
   transition: opacity 300ms, transform 300ms
 
 
@@ -118,16 +207,121 @@
 
 
 .popup__modal-exit-active 
-
   opacity: 0
-//   transform: scale(0.9)
   transition: opacity 300ms, transform 300ms
+
+
+
+
+.popup__modal_result-enter 
+  opacity: 0
+  transform: scale(0.5) 
+
+.popup__modal_result-enter-active 
+  opacity: 1
+  transform: scale(1)
+  transition: opacity 300ms, transform 300ms
+
+
+.popup__modal_result-exit 
+  opacity: 1
+  transition: opacity 300ms, transform 300ms
+
+
+.popup__modal_result-exit-active 
+  opacity: 0
+  transition: opacity 300ms, transform 300ms
+  transform: scale(0.5)
 
 
 
 .dialog
   position: absolute
+  font-family: Cuphead Felix
   z-index: 3
   width: 250px
-  right: 50px
-  top: 300px
+  right: 70px
+  animation: pulse 1s ease infinite
+  &_purple
+    color: $purple
+    text-decoration: underline
+  &_brown
+    color: $brown
+    text-decoration: underline
+  &_orange
+    color: $orange
+    text-decoration: underline
+  &__tail
+    position: absolute
+    width: 45px
+    bottom: -28px
+    left: 5px
+  span
+    letter-spacing: .010em 
+    line-height: 1
+    font-family: $font
+    font-size: 15px
+  &_menu
+    font-size: 15px
+    line-height: 1.2
+    letter-spacing: .020em 
+    font-family: $font
+    bottom: 430px
+    right: -130px
+    min-width: 290px
+    min-height: auto
+    color: $dark-brown
+    background: #ffd7d0
+    padding: 20px 23px
+    padding-bottom: 25px
+    border-radius: 5px
+    border: 2px solid $dark-brown
+
+  &__text
+    min-width: 68%
+    font-family: Cuphead Felix
+    font-size: 14px
+    position: absolute
+    top: 48%
+    left: 52%
+    transform: translate(-50%, -50%)
+    line-height: 1.2
+    font-family: $font
+    &_victory
+      font-size: 16px
+      position: relative
+      top: auto
+      left: auto
+      transform: none
+      letter-spacing: .020em
+      font-family: $font
+
+  &__img
+    width: 250px
+  &_victory
+    width: 200px
+    top: -250px
+    right: -120px
+    color: $dark-brown
+    background: #ffd7d0
+    padding: 20px 23px
+    padding-bottom: 25px
+    border-radius: 5px
+    border: 2px solid $dark-brown
+  &_gameOver
+    
+    top: -250px
+    right: -120px
+    .dialog__text
+      font-size: 12px
+
+@keyframes pulse
+  0%
+    transform: scale(1)
+
+  50%
+    transform: scale(0.9)
+
+  100%
+    transform: scale(1)
+

@@ -2,8 +2,7 @@ import React from 'react';
 import Card from './card.component';
 import {CSSTransition} from 'react-transition-group';
 
-const Board = ({game, soundOff, cards, cardToCheck, matchedCards, flipCard, disabled, timeRemaining, level}) => {
-    // console.log('time remaining is', +timeRemaining)
+const Board = ({game, cards, cardToCheck, matchedCards, flipCard, disabled, level}) => {
     let style;
     if (level === 'simple') {
         style = 'card-list__block_simple'
@@ -18,9 +17,7 @@ const Board = ({game, soundOff, cards, cardToCheck, matchedCards, flipCard, disa
     return (
 
         <CSSTransition in={game} unmountOnExit timeout={300} classNames='fade'>
-            <div className={`card-list ${showBoard}`}>
-                    
-                    
+            <div className={`card-list ${showBoard}`}> 
                     <div className={`card-list__block  ${style}`}>
                         {cards.map((card, idx) => <Card 
                                                 key={idx}
@@ -31,12 +28,8 @@ const Board = ({game, soundOff, cards, cardToCheck, matchedCards, flipCard, disa
                                                 disabled={disabled || JSON.stringify(matchedCards).includes(card.id)}
                                                 /> )}
                     </div>
-    
-    
-    
             </div>
         </CSSTransition>
-
     )
 }
 

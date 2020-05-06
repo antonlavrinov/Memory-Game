@@ -1,11 +1,13 @@
-// import React from 'react';
-import cake from './images/cake.jpeg';
-import cookie from './images/cookie.jpeg';
-import donut from './images/donut.jpeg';
-import candy from './images/candy.jpeg';
-import roll from './images/roll.jpeg';
-import croissant from './images/croissant.jpeg';
-import cracker from './images/cracker.jpeg';
+
+import cake from './images/cake-min.jpg';
+import cookie from './images/cookie-min.jpg';
+import donut from './images/donut-min.jpg';
+import candy from './images/candy-min.jpg';
+import roll from './images/roll-min.jpg';
+import croissant from './images/croissant-min.jpg';
+import cracker from './images/cracker-min.jpg';
+import creamCake from './images/cream-cake-min.jpg';
+import creamAndCandyCake from './images/cream-and-candies-cake-min.jpg';
 
 
 export const levels = [
@@ -42,10 +44,10 @@ export const levels = [
             {name: 'croissant', id: 1245, url: croissant},
             {name: 'cracker', id: 1246, url: cracker},
             {name: 'cracker', id: 1247, url: cracker},
-            {name: 'donut', id: 1248, url: donut},
-            {name: 'donut', id: 1249, url: donut},
-            {name: 'cake', id: 1250, url: cake},
-            {name: 'cake', id: 1251, url: cake}
+            {name: 'creamCake', id: 1248, url: creamCake},
+            {name: 'creamCake', id: 1249, url: creamCake},
+            {name: 'creamAndCandyCake', id: 1250, url: creamAndCandyCake},
+            {name: 'creamAndCandyCake', id: 1251, url: creamAndCandyCake}
         ],
         difficulty: 'regular'
     },
@@ -65,16 +67,16 @@ export const levels = [
             {name: 'croissant', id: 1245, url: croissant},
             {name: 'cracker', id: 1246, url: cracker},
             {name: 'cracker', id: 1247, url: cracker},
-            {name: 'donut', id: 1248, url: donut},
-            {name: 'donut', id: 1249, url: donut},
-            {name: 'cake', id: 1250, url: cake},
-            {name: 'cake', id: 1251, url: cake},
+            {name: 'creamCake', id: 1248, url: creamCake},
+            {name: 'creamCake', id: 1249, url: creamCake},
+            {name: 'creamAndCandyCake', id: 1250, url: creamAndCandyCake},
+            {name: 'creamAndCandyCake', id: 1251, url: creamAndCandyCake},
             {name: 'candy', id: 1252, url: candy},
             {name: 'candy', id: 1253, url: candy},
-            {name: 'croissant', id: 1254, url: croissant},
+            {name: 'roll', id: 1254, url: roll},
             {name: 'cookie', id: 1255, url: cookie},
             {name: 'cookie', id: 1256, url: cookie},
-            {name: 'croissant', id: 1257, url: croissant},
+            {name: 'roll', id: 1257, url: roll},
             {name: 'cake', id: 1258, url: cake},
             {name: 'cake', id: 1259, url: cake},
             {name: 'cracker', id: 1260, url: cracker},

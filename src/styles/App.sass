@@ -1,6 +1,33 @@
 
 @import './base/_variables';
 
+
+@font-face 
+    font-family: 'Comic Sans'
+    src: url('../fonts/ComicSansMS-Bold.eot')
+    src: url('../fonts/ComicSansMS-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ComicSansMS-Bold.woff2') format('woff2'),
+    url('../fonts/ComicSansMS-Bold.woff') format('woff'),
+    url('../fonts/ComicSansMS-Bold.ttf') format('truetype'),
+    url('../fonts/ComicSansMS-Bold.svg#ComicSansMS-Bold') format('svg')
+    font-weight: bold
+    font-style: normal
+
+
+
+
+
+@font-face 
+    font-family: 'Museo Sans'
+    src: url('../fonts/MuseoSansCyrl-500.eot')
+    src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+    url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'),
+    url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg')
+    font-weight: 500
+    font-style: normal
+
 @font-face 
     font-family: 'Plump'
     src: url('../fonts/Plump.eot')
@@ -42,7 +69,7 @@
     padding: 0
     box-sizing: border-box 
     letter-spacing: .070em
-    font-family: 'Plump', sans-serif
+    font-family: 'Plump', Comic Sans, sans-serif
 
 img 
     align-self: start
@@ -68,22 +95,42 @@ ul, li
     height: 100%
 body
     height: 100%
+a
+    text-decoration: none
 
 html
     height: 100%
+
+.orange-text
+    color: $orange
+    font-family: inherit
+
+.ddcontainerghost
+    opacity: 1 !important
+    cursor: grabbing !important
+
+.ddcontainer
+    cursor: grab !important
+
 
 
 @import './blocks/_spinner';
 @import './blocks/_card';
 @import './blocks/_curtain';
-@import './blocks/_top-line';
+@import './blocks/_bottom-line';
 @import './blocks/_buttons';
 @import './blocks/_progress-bar';
 @import './blocks/_devil';
 @import './blocks/_game';
+@import './blocks/_languages';
 @import './blocks/_card-list';
 @import './blocks/_transitions';
 @import './blocks/_popups';
+@import './blocks/_candy-bag-modal';
+@import './blocks/_candy-bag-icon';
+@import './blocks/_gift';
+@import './blocks/_loader';
+@import './blocks/_footer';
 
 
 @import './base/_media';

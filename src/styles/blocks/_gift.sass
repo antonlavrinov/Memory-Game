@@ -1,0 +1,43 @@
+.gift-block
+    width: 150px
+    height: 150px
+    position: relative
+    margin: 0 auto
+    margin-top: -60px
+    display: flex
+    justify-content: center
+    &__img
+        margin-top: 18px
+        width: 110px
+        height: 110px !important
+        height: 100%
+        z-index: 1
+        animation: candyRotate 1s linear infinite
+    &__title
+        width: 120%
+        position: absolute
+        bottom: -15px
+        font-family: $font
+        color: $pale-orange
+        font-size: 12px
+        text-align: center
+        z-index: 1
+.shine
+    &_mini
+        height: 150px
+        width: 150px
+        position: absolute
+        top: 0
+        background: url('../../images/victory_shine-min.png')
+        background-size: 100%
+        animation: shineRotate 7s linear infinite
+
+
+@keyframes candyRotate
+    0%
+
+    50%
+        transform: rotate(10deg)
+    100%
+        transform: rotate(0deg)
+        
