@@ -1,6 +1,6 @@
 {
   "name": "cards",
-  "homepage": "https://antonlavrinov.github.io/Memory-Game/",
+  "_homepage": "https://antonlavrinov.github.io/Memory-Game/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
