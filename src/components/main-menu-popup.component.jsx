@@ -44,6 +44,22 @@ class MainMenuPopup extends React.Component {
     
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
     //Synchronizing dialogues translation
     synchronizeCandyTranslation = () => {
         const candyToTranslateId = this.state.eatenCandy.id;

@@ -1,8 +1,91 @@
+
+
+
+//  HEIGHT FIX(EXCEPT FIREFOX)  
+
+@media screen and (max-height: 950px) and (orientation: landscape)
+    body
+        background: black
+    .App
+        height: 100%
+        background: black
+    #root
+        height: 100%
+        background: black
+    .game
+        zoom: 0.9
+
+    //fixes draggable elements
+    .main-menu
+        .modal
+            .ddcontainer
+                // zoom: 1.1
+
+                &:active
+                    zoom: 1.1
+
+
+
+@media screen and (max-height: 850px) and (orientation: landscape)
+    .game
+        zoom: 0.8
+
+    .main-menu
+        .modal
+            .candy-bag-modal__candy-slot
+                // &:active
+                //     z-index: 1
+            .ddcontainer
+                &:active
+                    zoom: 1.25
+            // .ddcontainerghost
+            //     transform: translate(-20% , 140%)
+            
+
+@media screen and (max-height: 750px)  and (orientation: landscape)
+    .game
+        zoom: 0.7
+
+    .main-menu
+        .modal
+            .ddcontainer
+                &:active
+                    zoom: 1.42
+            // .ddcontainerghost
+            //     transform: translate(-20% , 160%)
+
+            // .ddcontainersource
+            //     &:active
+            //         transform: translateY(120%)
+
+
+@media screen and (max-height: 650px) and (orientation: landscape)
+    .game
+        zoom: 0.6
+
+    .main-menu
+        .modal
+            .ddcontainer
+                &:active
+                    zoom: 1.66
+
+@media screen and (max-height: 550px) and (orientation: landscape)
+    .game
+        zoom: 0.5 
+
+    .main-menu
+        .modal
+            .ddcontainer
+                &:active
+                    zoom: 2
+
+
 // @media screen and (max-width: 1200px)
 
 
 
 //IPAD PRO 1024px
+
    
 @media screen and (max-width: 991px) 
     .loader
@@ -186,7 +269,7 @@
         width: 300px
     .devil
         &__image
-            width: 100%
+            // width: 100%
             &_menu
                 top: -130px 
                 width: 400px
@@ -199,7 +282,7 @@
         height: 950px
         width: 100%
         .container
-            width: 100%
+            width: 600px
             height: 100%
     .card-list
         &__block
@@ -257,6 +340,7 @@
         
     .devil
         &__image
+            width: 100%
             &_up
                 top: 15%
             &_menu
@@ -302,6 +386,9 @@
                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
                 width: 400px
                 height: 400px
+    .game
+        .container
+            width: 100%
 
  
 
