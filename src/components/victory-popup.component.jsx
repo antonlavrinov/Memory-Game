@@ -10,7 +10,7 @@ const VictoryPopup = ({victory, tryAgain, goToMenu, userCandies, t}) => {
     const lastCandy = userCandies[userCandies.length - 1]
     return(
         <CSSTransition classNames="popup__modal_result" unmountOnExit in={victory} timeout={300}>
-            <div className="popup popup_victory">
+            <div translate="no" className="popup popup_victory notranslate">
                 <div className="popup__shine"></div>
                 <div className="popup__overlay popup__overlay_result">
                     <div className="modal modal_result">

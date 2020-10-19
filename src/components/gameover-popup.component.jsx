@@ -9,7 +9,7 @@ import {withTranslation} from 'react-i18next';
 const GameOverPopup = ({gameOver, tryAgain, goToMenu, t}) => {
     return(
         <CSSTransition classNames="popup__modal_result" unmountOnExit in={gameOver} timeout={300}>
-            <div className="popup popup_gameOver">
+            <div translate="no" className="popup popup_gameOver notranslate">
                 <div className="popup__overlay popup__overlay_result">
                     <div className="popup__black">
                     </div>

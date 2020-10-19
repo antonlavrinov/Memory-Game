@@ -18,7 +18,7 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
-    fallbackLng: ['en', 'ru'],
+    fallbackLng: ['en'],
     // lng: "ru",
     debug: true,
     // whitelist: languages,

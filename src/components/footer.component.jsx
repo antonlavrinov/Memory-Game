@@ -6,10 +6,10 @@ import cuphead from '../images/cuphead-min.png';
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer translate="no" className="footer notranslate">
                 <div className="footer__block">
-                    <div className="creator">
-                        <a className="creator__link" target="_blank" rel="noopener noreferrer" href='https://github.com/antonlavrinov'>
+                    <div className="creator ">
+                        <a className="creator__link" target="_blank" rel="noopener noreferrer" href='https://github.com/antonlavrinov/Memory-Game'>
                             <FontAwesomeIcon icon={faGithub} size="2x"/>
                             <div className="creator__name">
                                 <span className="creator__small-font">Created by</span> <br/>Anton Lavrinov
@@ -25,7 +25,7 @@ const Footer = () => {
 
                     <div className="cuphead">
                         <a className="cuphead__link" target="_blank" rel="noopener noreferrer" href='http://cupheadgame.com/'>
-                            <div className="cuphead__descr">
+                            <div  className="cuphead__descr notranslate">
                                 Sounds by
                             </div>
                             <img className="cuphead__logo" src={cuphead} alt="cuphead"/>

@@ -20,6 +20,9 @@ import shadow from '../images/shadow-min.png';
 
 
 
+
+
+
 class Game extends React.Component {
 
     state = {
@@ -34,13 +37,18 @@ class Game extends React.Component {
         timeRemaining: null,
         level: '',
         game: false,
-        curtain: false
+        curtain: false,
+
+        
     }
 
     audioController = new AudioController();
 
 
-    
+
+
+
+
 
     shuffleCards = (a) => {
         var j, x, i;
@@ -190,10 +198,10 @@ class Game extends React.Component {
             time = 25;
         } 
         if (difficulty === 'regular') {
-            time = 30;
+            time = 35;
         } 
         if (difficulty === 'expert') {
-            time = 50;
+            time = 60;
         } 
         this.setState({cardToCheck: []});
         this.setState({matchedCards: []});
@@ -222,10 +230,10 @@ class Game extends React.Component {
             time = 25;
         } 
         if (this.state.level === 'regular') {
-            time = 30;
+            time = 35;
         } 
         if (this.state.level === 'expert') {
-            time = 50;
+            time = 60;
         } 
         this.setState({curtain: true})
         this.setState({victory: false})
@@ -363,6 +371,7 @@ class Game extends React.Component {
 
 
     render() {
+
         return(
             <div className="game">
                 <div className="container">      
