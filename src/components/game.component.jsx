@@ -91,48 +91,7 @@ class Game extends React.Component {
 
     }
 
-    // preloadImages = () => {
-    //     // const imagesArray = ['background.jpg', 
-    //     //                     'menu_background.jpg',
-    //     //                      'candy.jpg',
-    //     //                      'cookie.jpg',
-    //     //                      'cracker.jpg',
-    //     //                      'croissant.jpg',
-    //     //                      'donut.jpg',
-    //     //                      'roll.jpg',
-    //     //                      'cake.jpg',
-    //     //                     'victory.png',
-    //     //                     'game-over.png',
-    //     //                     'memory-game.png',
-    //     //                     'card_back4.jpg',
-    //     //                     'devil_outglow.png',
-    //     //                     'devil1.png',
-    //     //                     'dialog_menu.png',
-    //     //                     'shadow.png'
-    //     // ];
-    //     const imagesArray = [gameOverImg, victoryImg]
-    //     // const loadedImages = [];
-    //     imagesArray.map((srcc) => {
-    //         console.log(srcc)
-    //         // const src = `../images/${srcc}`
-    //         new Image().src = srcc;
-    //         // img.src = src
-    //         // img.onload = loadedImages.push(srcc)
-    //         // console.log(img)
-    //     });
-
-    //     // if(loadedImages.length === 17) {
-    //     //     setTimeout(() => {
-    //     //         this.setState({loaded: true})
-    //     //         console.log('LOADED')
-    //     //     }, 1500)
-
-    //     // }
-    // }
-
-    // componentDidMount() {
-    //     this.preloadImages()
-    // }
+   
 
 
     countDown;
