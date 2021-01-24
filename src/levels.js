@@ -1,4 +1,3 @@
-
 import cake from './images/cake-min.jpg';
 import cookie from './images/cookie-min.jpg';
 import donut from './images/donut-min.jpg';
