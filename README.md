@@ -10,4 +10,4 @@ It's a test project that was built with React to improve my programming skills. 
 
 * You can collect all the candies that you won in this game in your Candy Bag.
 
-* You can also feed the poor devil with one of the candies from your bag if you wish to show some kindness to the poor creature ;)
+* You can also feed the devil with one of the candies from your bag if you wish to show some kindness to the poor creature ;)
